@@ -10,20 +10,39 @@ webinar titles and half of it was wrong.
 
 | Claim | Verdict | Evidence |
 |---|---|---|
-| Payment portals were a hype wave | Fails | 1.1% to 2.2% of sessions in every year. 22 of 1,309. |
+| Payment portals were a hype wave | Fails | 0% in 2021, then 1.1% to 2.2% a year. 22 of 1,309. |
 | Then texting, email and omnichannel | Holds | 3.0% (2022) to a 9.3% peak (2024), down to 5.5% (2026). |
 | Then "nobody answers the phone" | Fails | Flat, 4.5% to 4.9%, and it rebounded in 2026. |
-| Now AI voice bots dominate | Partly | AI reaches 20.3%. Voice AI specifically, 3.8%. |
+| Now AI voice bots dominate | Partly | AI reaches 20.3%. A voice-specific figure is withdrawn, see Corrections. |
 
 AI went from 0.8% of 2022 sessions to 20.3% of 2026 sessions. Read chronologically the AI sessions
 move through four stages: explainer (2023), policy (2024), enablement (2025), workforce management
 (2026).
 
-**The caveat that matters.** These are sponsored webinars. AI sessions carry a sponsor 83.7% of the
-time (77 of 92) against 63.0% (58 of 92) for a year-matched non-AI baseline. Gap 20.7 points, 95% CI
-8.2 to 33.1, p = 0.0015. The AI surge is more vendor-funded than the rest of the calendar. Roughly
-two thirds of everything on the calendar is sponsored, so this is a tilt rather than a different
-kind of content, but read the curve accordingly.
+**The caveat that matters.** These are sponsored webinars. AI sessions show a readable sponsor label
+85.9% of the time (79 of 92) against 70.7% (65 of 92) for a year-matched non-AI baseline. Gap 15.2
+points, 95% CI 3.5 to 26.9, p = 0.012. Both figures count sponsor labels OCR could read, so both are
+floors. An association between sponsorship and topic does not establish which way causation runs,
+and this test cannot separate them.
+
+## Corrections, 2026-09-16
+
+The first version was public for several hours before an independent code review found six errors.
+All are fixed and listed in section 08 of the page. The material ones:
+
+- **OCR ran in fast mode, not accurate.** Vision defines Accurate=0, Fast=1; the code passed 1 with a
+  comment claiming accurate. Fast mode misread sponsor labels ("Spon50r:"). Corrected figures moved
+  the sponsorship gap from 20.7 to 15.2 points and p from 0.0015 to 0.012.
+- **A causal claim was removed.** The page said a rise from 0.8% to 20.3% "does not come from a
+  21-point sponsorship gap." That compares a change in share against a between-group prevalence
+  difference. It cannot rule out sponsorship-driven topic selection.
+- **The voice-AI figure (3.8%) is withdrawn.** The classifier matched "How to start with Agentic AI"
+  and missed "AI on the Phone: The Voice (and Final) Frontier". No stable replacement exists.
+- **A title was misdated.** "The Human Oversight Imperative" ran 2025-11-20, cited as 2026.
+
+Unresolved and flagged rather than fixed: six record pairs share a title and date (likely a session
+and its promo card both indexed), and the phone category is a broad keyword bucket that catches
+call-center staffing content.
 
 ## Data
 
