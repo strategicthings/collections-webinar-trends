@@ -1,0 +1,1137 @@
+{
+  "generated": "2026-09-16",
+  "corpus": {
+    "records": 1309,
+    "range": [
+      "2021-10-22",
+      "2026-09-15"
+    ]
+  },
+  "quarters": [
+    "2021Q4",
+    "2022Q1",
+    "2022Q2",
+    "2022Q3",
+    "2022Q4",
+    "2023Q1",
+    "2023Q2",
+    "2023Q3",
+    "2023Q4",
+    "2024Q1",
+    "2024Q2",
+    "2024Q3",
+    "2024Q4",
+    "2025Q1",
+    "2025Q2",
+    "2025Q3",
+    "2025Q4",
+    "2026Q1",
+    "2026Q2",
+    "2026Q3"
+  ],
+  "quarterly_n": [
+    50,
+    63,
+    72,
+    69,
+    62,
+    66,
+    72,
+    63,
+    61,
+    79,
+    66,
+    69,
+    66,
+    64,
+    74,
+    66,
+    65,
+    65,
+    63,
+    54
+  ],
+  "years": [
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "annual_n": [
+    50,
+    266,
+    262,
+    280,
+    269,
+    182
+  ],
+  "series": {
+    "portals": {
+      "label": "Payment portals & self-service",
+      "quarterly": [
+        0.0,
+        1.6,
+        1.4,
+        1.4,
+        1.6,
+        3.0,
+        0.0,
+        0.0,
+        1.6,
+        2.5,
+        1.5,
+        2.9,
+        0.0,
+        1.6,
+        2.7,
+        3.0,
+        1.5,
+        1.5,
+        3.2,
+        1.9
+      ],
+      "quarterly_n": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        2,
+        1,
+        2,
+        0,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1
+      ],
+      "annual": [
+        0.0,
+        1.5,
+        1.1,
+        1.8,
+        2.2,
+        2.2
+      ],
+      "annual_n": [
+        0,
+        4,
+        3,
+        5,
+        6,
+        4
+      ],
+      "total": 22
+    },
+    "digital_comms": {
+      "label": "Text, email & omnichannel",
+      "quarterly": [
+        2.0,
+        1.6,
+        4.2,
+        4.3,
+        1.6,
+        4.5,
+        9.7,
+        6.3,
+        6.6,
+        3.8,
+        10.6,
+        8.7,
+        15.2,
+        3.1,
+        4.1,
+        10.6,
+        9.2,
+        6.2,
+        4.8,
+        5.6
+      ],
+      "quarterly_n": [
+        1,
+        1,
+        3,
+        3,
+        1,
+        3,
+        7,
+        4,
+        4,
+        3,
+        7,
+        6,
+        10,
+        2,
+        3,
+        7,
+        6,
+        4,
+        3,
+        3
+      ],
+      "annual": [
+        2.0,
+        3.0,
+        6.9,
+        9.3,
+        6.7,
+        5.5
+      ],
+      "annual_n": [
+        1,
+        8,
+        18,
+        26,
+        18,
+        10
+      ],
+      "total": 81
+    },
+    "digital_strategy": {
+      "label": "Digital-first strategy",
+      "quarterly": [
+        0.0,
+        0.0,
+        0.0,
+        2.9,
+        3.2,
+        6.1,
+        2.8,
+        4.8,
+        4.9,
+        3.8,
+        0.0,
+        1.4,
+        3.0,
+        0.0,
+        2.7,
+        0.0,
+        0.0,
+        1.5,
+        3.2,
+        0.0
+      ],
+      "quarterly_n": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        4,
+        2,
+        3,
+        3,
+        3,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "annual": [
+        0.0,
+        1.5,
+        4.6,
+        2.1,
+        0.7,
+        1.6
+      ],
+      "annual_n": [
+        0,
+        4,
+        12,
+        6,
+        2,
+        3
+      ],
+      "total": 27
+    },
+    "phone_contact": {
+      "label": "Phone, calls & reaching people",
+      "quarterly": [
+        2.0,
+        6.3,
+        4.2,
+        2.9,
+        4.8,
+        1.5,
+        8.3,
+        4.8,
+        4.9,
+        3.8,
+        0.0,
+        10.1,
+        3.0,
+        3.1,
+        1.4,
+        3.0,
+        1.5,
+        3.1,
+        6.3,
+        5.6
+      ],
+      "quarterly_n": [
+        1,
+        4,
+        3,
+        2,
+        3,
+        1,
+        6,
+        3,
+        3,
+        3,
+        0,
+        7,
+        2,
+        2,
+        1,
+        2,
+        1,
+        2,
+        4,
+        3
+      ],
+      "annual": [
+        2.0,
+        4.5,
+        5.0,
+        4.3,
+        2.2,
+        4.9
+      ],
+      "annual_n": [
+        1,
+        12,
+        13,
+        12,
+        6,
+        9
+      ],
+      "total": 53
+    },
+    "ai_general": {
+      "label": "AI (any)",
+      "quarterly": [
+        4.0,
+        0.0,
+        1.4,
+        1.4,
+        0.0,
+        3.0,
+        5.6,
+        6.3,
+        8.2,
+        3.8,
+        7.6,
+        5.8,
+        3.0,
+        7.8,
+        8.1,
+        13.6,
+        12.3,
+        21.5,
+        20.6,
+        18.5
+      ],
+      "quarterly_n": [
+        2,
+        0,
+        1,
+        1,
+        0,
+        2,
+        4,
+        4,
+        5,
+        3,
+        5,
+        4,
+        2,
+        5,
+        6,
+        9,
+        8,
+        14,
+        13,
+        10
+      ],
+      "annual": [
+        4.0,
+        0.8,
+        5.7,
+        5.0,
+        10.4,
+        20.3
+      ],
+      "annual_n": [
+        2,
+        2,
+        15,
+        14,
+        28,
+        37
+      ],
+      "total": 98
+    },
+    "ai_voice": {
+      "label": "Voice AI & agentic voice",
+      "quarterly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.8,
+        1.6,
+        1.6,
+        1.3,
+        3.0,
+        0.0,
+        0.0,
+        1.6,
+        5.4,
+        4.5,
+        1.5,
+        4.6,
+        1.6,
+        5.6
+      ],
+      "quarterly_n": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        2,
+        0,
+        0,
+        1,
+        4,
+        3,
+        1,
+        3,
+        1,
+        3
+      ],
+      "annual": [
+        0.0,
+        0.0,
+        1.5,
+        1.1,
+        3.3,
+        3.8
+      ],
+      "annual_n": [
+        0,
+        0,
+        4,
+        3,
+        9,
+        7
+      ],
+      "total": 23
+    },
+    "compliance": {
+      "label": "Compliance & regulatory (control)",
+      "quarterly": [
+        58.0,
+        27.0,
+        18.1,
+        10.1,
+        24.2,
+        16.7,
+        13.9,
+        14.3,
+        14.8,
+        13.9,
+        15.2,
+        11.6,
+        12.1,
+        9.4,
+        13.5,
+        10.6,
+        15.4,
+        4.6,
+        19.0,
+        9.3
+      ],
+      "quarterly_n": [
+        29,
+        17,
+        13,
+        7,
+        15,
+        11,
+        10,
+        9,
+        9,
+        11,
+        10,
+        8,
+        8,
+        6,
+        10,
+        7,
+        10,
+        3,
+        12,
+        5
+      ],
+      "annual": [
+        58.0,
+        19.5,
+        14.9,
+        13.2,
+        12.3,
+        11.0
+      ],
+      "annual_n": [
+        29,
+        52,
+        39,
+        37,
+        33,
+        20
+      ],
+      "total": 210
+    },
+    "people": {
+      "label": "Hiring, training & staffing (control)",
+      "quarterly": [
+        12.0,
+        11.1,
+        8.3,
+        13.0,
+        11.3,
+        12.1,
+        11.1,
+        15.9,
+        8.2,
+        24.1,
+        10.6,
+        7.2,
+        9.1,
+        17.2,
+        12.2,
+        13.6,
+        10.8,
+        21.5,
+        9.5,
+        5.6
+      ],
+      "quarterly_n": [
+        6,
+        7,
+        6,
+        9,
+        7,
+        8,
+        8,
+        10,
+        5,
+        19,
+        7,
+        5,
+        6,
+        11,
+        9,
+        9,
+        7,
+        14,
+        6,
+        3
+      ],
+      "annual": [
+        12.0,
+        10.9,
+        11.8,
+        13.2,
+        13.4,
+        12.6
+      ],
+      "annual_n": [
+        6,
+        29,
+        31,
+        37,
+        36,
+        23
+      ],
+      "total": 162
+    },
+    "credit_reporting": {
+      "label": "Credit reporting & furnishing",
+      "quarterly": [
+        0.0,
+        4.8,
+        8.3,
+        7.2,
+        6.5,
+        7.6,
+        5.6,
+        7.9,
+        4.9,
+        2.5,
+        4.5,
+        5.8,
+        1.5,
+        4.7,
+        2.7,
+        3.0,
+        3.1,
+        3.1,
+        3.2,
+        3.7
+      ],
+      "quarterly_n": [
+        0,
+        3,
+        6,
+        5,
+        4,
+        5,
+        4,
+        5,
+        3,
+        2,
+        3,
+        4,
+        1,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "annual": [
+        0.0,
+        6.8,
+        6.5,
+        3.6,
+        3.3,
+        3.3
+      ],
+      "annual_n": [
+        0,
+        18,
+        17,
+        10,
+        9,
+        6
+      ],
+      "total": 60
+    },
+    "disputes": {
+      "label": "Disputes",
+      "quarterly": [
+        6.0,
+        3.2,
+        0.0,
+        0.0,
+        3.2,
+        3.0,
+        1.4,
+        1.6,
+        1.6,
+        3.8,
+        1.5,
+        2.9,
+        4.5,
+        9.4,
+        4.1,
+        6.1,
+        0.0,
+        0.0,
+        3.2,
+        3.7
+      ],
+      "quarterly_n": [
+        3,
+        2,
+        0,
+        0,
+        2,
+        2,
+        1,
+        1,
+        1,
+        3,
+        1,
+        2,
+        3,
+        6,
+        3,
+        4,
+        0,
+        0,
+        2,
+        2
+      ],
+      "annual": [
+        6.0,
+        1.5,
+        1.9,
+        3.2,
+        4.8,
+        2.2
+      ],
+      "annual_n": [
+        3,
+        4,
+        5,
+        9,
+        13,
+        4
+      ],
+      "total": 38
+    }
+  },
+  "examples": {
+    "portals": {
+      "2021": [],
+      "2022": [
+        "How Portals Should be Improved (From 2/23/2022)",
+        "How to Make Your Portal a Collections Hub for Consumers (From 6/13/2022)",
+        "Improving Self-Service Collection Rates (From 9/30/2022)",
+        "Are Your Collectors and Web Portals Competing with Each Other (From 11/15/2022)"
+      ],
+      "2023": [
+        "Making The User Experience of Your Portal as User-Friendly as Possible (From 2/22/2023)",
+        "How to Get Consumers to Use Your Portal (From 3/21/2023)",
+        "Consumer Portals – More than Just Payments (From 12/14/2023)"
+      ],
+      "2024": [
+        "Building a Self-Service Portal that Consumers Want to Use (From 1/30/24)",
+        "The Basics of User/Customer Experience and How to Make Your Site/Portal More User Friendly (From 2/7/2024)",
+        "Best Practices in Portal Optimization (From 4/4/2024)",
+        "Breaking Points in the Self-Service Journey-Where Consumers Get Stuck and How to Unstick Them (From 7/11/2024)",
+        "Scaling with Self-service AI bots – SMS and Chatbots (From 9/24/2024)"
+      ],
+      "2025": [
+        "Reducing Friction To Make Your Portal Easier to Use (From 2/18/2025)",
+        "Scaling Self-Service Revenue in 2025 (From 5/22/2025)",
+        "Self-Service Payment Plans & Settlements (From 6/2/2025)",
+        "How Your Payment Portal Needs to Adapt (From 8/27/2025)",
+        "How to Drive Consumers to Your Portal (From 9/4/2025)",
+        "From Click to Commitment: Turning Portal Visits into Payments (From 11/19/2025)"
+      ],
+      "2026": [
+        "How Do You Know if You Have a Good Portal? (From 03/06/2026)",
+        "Discussing Collector Compensation in an AI/Portal/Omnichannel World",
+        "Leveraging RCS and Digital Portals for Frictionless Recovery",
+        "One Consumer, Five Channels: Making Email, Text, and the Portal Work as One Journey"
+      ]
+    },
+    "digital_comms": {
+      "2021": [
+        "Getting Consumers to Communicate Via Email and Text Messaging (From 11/8/2021)"
+      ],
+      "2022": [
+        "Digital Communications 101 (From 3/15/2022)",
+        "Texting and Emailing Under Regulation F: What Has Been Learned So Far (From 5/2/2022)",
+        "How to Make Sure Your Text Messages are Delivered (From 6/1/2022)",
+        "Getting Consumers to Open Your Emails (From 6/22/2022)",
+        "Best Practices in Communicating via Text Messaging and Email (From 8/8/2022)",
+        "SMS Risk Mitigation Strategies (From 8/24/2022)"
+      ],
+      "2023": [
+        "Texting is Where People Need To Be. How Do You Get There (From 1/18/2023)",
+        "The Controls That Need To Be In Place To Two-Way Text (From 2/13/2023)",
+        "Answering All Your Questions About Texting, Emailing and Consent, Once and For All (From 3/17/2023)",
+        "Getting Emails into Inboxes and Not Into Spam Folders (From 4/5/2023)",
+        "Answering All Your Questions About Texting, Emailing and Consent, Once and For All, Part II (From 4/26/2023)",
+        "Avoiding Spam/Scam Labels on Outgoing Calls (From 5/1/2023)"
+      ],
+      "2024": [
+        "Checking the Tone of Your Email Communications (From 1/24/2024)",
+        "What You Should be Testing in Your Digital Communications (From 2/5/2024)",
+        "How To Make Sure Your Emails to Consumers Are Not Ignored (From 2/8/2024)",
+        "How to Reduce the Chance of Your Text Messages Being Blocked (From 4/5/2024)",
+        "Answering Compliance Questions Related to Email Communications (From 4/26/2024)",
+        "How to Keep Email and Text Opt-Out Rates Low (From 5/2/2024)"
+      ],
+      "2025": [
+        "The Steps You Can Take to Keep Your Numbers From Being Labeled as Spam (From 1/15/2025)",
+        "How to Effectively Engage in Two-Way Digital Communications with Consumers (From 3/25/2025)",
+        "How to Filter & Respond to Digital Communications (From 4/18/2025)",
+        "Reviewing Letters and Digital Communications (From 5/8/2025)",
+        "Testing Digital Communication Campaigns (From 5/13/2025)",
+        "Best Email Communication Strategies (From 7/2/2025)"
+      ],
+      "2026": [
+        "How to Use RCS, SMS, and MMS Effectively (From 02/17/2026)",
+        "The Other Half of QA: Coaching Teams on What They Didn’t Say on the Call or Text (From 03/10/206)",
+        "Communication Orchestration vs. Omnichannel: The Gap Between Capability and Outcome (From 03/16/2026)",
+        "The Art of Texting – Strategies for Text Messaging in Collections (From 03/20/2026)",
+        "The Consent You Need for Virtual, Electronic, and Digital communications (From 04/06/2026)",
+        "Texting to Pay: Getting Consumers to Pay Without Calls or Emails (From 05/06/2026)"
+      ]
+    },
+    "digital_strategy": {
+      "2021": [],
+      "2022": [
+        "What is a Digital Strategist and Why Your Agency Needs One (From 7/28/2022)",
+        "How to Structure Your Operation to Maximize Digital Collections (From 8/25/2022)",
+        "How to Know Your Digital Collection Efforts Paying Off (From 11/2/2022)",
+        "Digital Collections-Where to Get the Most Bang for Your Buck (From 12/13/2022)"
+      ],
+      "2023": [
+        "How to Recreate the Live Agent Experience Using Digital Collections and Technology (From 1/6/2023)",
+        "Working With Your Creditor-Clients to Maximize Your Digital Collection Efforts (From 1/30/2023)",
+        "Using Digital Collections and Technology to Improve Dispute Processing (From 2/10/2023)",
+        "Creating Digital Collection Messages That Consumers Will Respond To (From 2/17/2023)",
+        "Teaching Agents to Become Digital Collectors (From 4/12/2023)",
+        "Your Changing Insurance Needs in a Digital Collection World (From 5/24/2023)"
+      ],
+      "2024": [
+        "Collector.Live! 2024: How to Become a Master Digital Collection Agent",
+        "How Risk Management and Mitigation are Changing in the Era of Digital Collections (From 1/17/2024)",
+        "Mastering Digital Collection Communications (From 2/28/2024)",
+        "How to Minimize the Risks Associated with Digital Collections (From 9/9/2024)",
+        "How to Gain Digital Collection Experience As Quickly As Possible (From 11/19/2024)",
+        "Digital Only vs. Digital First Collections (From 11/20/2024)"
+      ],
+      "2025": [
+        "The Digital-First Customer-Collection Strategies for Modern Financial Institutions (From 4/2/2025)",
+        "Digital Collections and the Model Validation Notice (From 6/3/2025)"
+      ],
+      "2026": [
+        "The Link Between Digital Strategies and Data (From 1/13/2026)",
+        "Bringing Your Collectors Along for the Ride: A Workforce Playbook for Digital Collections",
+        "E-Sign & Digital Collections"
+      ]
+    },
+    "phone_contact": {
+      "2021": [
+        "Using the Reassigned Number Database. How is it Going? (From 12/2/2021)"
+      ],
+      "2022": [
+        "What do Baiting Calls Look Like, post-Reg F? (From 1/5/2022)",
+        "Maximizing Collection and Contact Rates During an Era of Lower Placement Volumes (From 1/12/2022)",
+        "Employee Development Plans for Call Center Agents/Managers (From 2/17/2022)",
+        "The Types of Calls that Technology Can Handle and the Types that Need a Human (From 3/10/2022)",
+        "The Art of Identifying Call Baiting (From 4/7/2022)",
+        "The Best Strategies for Maximizing Calling Attempts Under 7-in-7 (From 5/6/2022)"
+      ],
+      "2023": [
+        "How Artificial Intelligence is Driving Call Center Compliance (From 2/7/2023)",
+        "How AI Can Help Collectors Automate After-Call Work (From 4/11/2023)",
+        "Avoiding Spam/Scam Labels on Outgoing Calls (From 5/1/2023)",
+        "Strategies to Improve Connection & RPC Rates (From 5/24/2023)",
+        "Phone Number Strategies & Best Practices (From 6/8/2023)",
+        "What is Branded Caller ID and Should You Be Using It?"
+      ],
+      "2024": [
+        "Collector.Live! 2024: Identifying Call Baiting",
+        "How to Teach Collectors to be in Control of Calls (From 1/17/2024)",
+        "Dealing With Private Companies — like Phone Carriers — Essentially Regulating the ARM Industry (From 3/13/2024)",
+        "How to Close Collection Calls (From 7/10/2024)",
+        "How to Use Voicemail Drops Effectively (From 8/14/2024)",
+        "What Companies Should do with Their Good and Bad Calls Once They Are Over (From 8/26/2024)"
+      ],
+      "2025": [
+        "How to Prevent the Carriers from Blocking Your Calls (From 2/14/2025)",
+        "Update on New FCC Call Blocking Rules (From 3/13/2025)",
+        "Building an Effective QA Program That Goes Beyond Call Monitoring (From 6/13/2025)",
+        "Getting the Most out of Call Calibration Sessions (From 7/14/2025)",
+        "Modern Strategies for Call Center Retention (From 9/3/2025)",
+        "The Future of Call QA: Real-Time Accuracy and Performance Coaching using AI (From 10/20/2025)"
+      ],
+      "2026": [
+        "AI Assistants on the Phones: How to Deploy, Measure, and Govern Virtual Negotiators (From 2/3/2026)",
+        "The Other Half of QA: Coaching Teams on What They Didn’t Say on the Call or Text (From 03/10/206)",
+        "Texting to Pay: Getting Consumers to Pay Without Calls or Emails (From 05/06/2026)",
+        "How AI Can Help Get Through Call Screening Technology (From 05/13/2026)",
+        "Best Practices Dealing With Reassigned Numbers (From 05/14/2026)",
+        "The Latest in Dealing with Call Labeling and Screening"
+      ]
+    },
+    "ai_general": {
+      "2021": [
+        "20211118 – Leveraging AI to Tackle Reg F & Training Agents For It (From 11/18/2021)",
+        "Leveraging AI to Tackle Reg F & Training Agents For It (From 11/18/2021)"
+      ],
+      "2022": [
+        "Stop Dialing for Dollars: How Machine Learning and Scoring can Help you Collect More While Working Less  (From 6/20/2022)",
+        "Explaining the Difference Between Machine Learning, Artificial Intelligence and What you Need to Know (From 8/5/2022)"
+      ],
+      "2023": [
+        "How Artificial Intelligence is Driving Call Center Compliance (From 2/7/2023)",
+        "Everything You Need to Know about Chatbots and Webchat (From 3/26/2023)",
+        "How AI Can Help Collectors Automate After-Call Work (From 4/11/2023)",
+        "How Conversational Voice AI Helps the ARM Industry With Compliance and Improving Efficiency (From 4/13/2023)",
+        "The Different Types of Artificial Intelligence and How They Are Used in Collections (From 5/22/2023)",
+        "Why Collection Agencies must Leverage Voice AI Technology"
+      ],
+      "2024": [
+        "Why You Need an AI Policy for Your Company (From 1/5/2024)",
+        "Understanding the Different Types of AI and What They are Doing for the ARM Industry (From 3/19/20204)",
+        "How Agencies are Using Virtual Agents (From 3/12/2024)",
+        "Communicating via Chat and Using Chatbots (From 4/11/2024)",
+        "Addressing the Ambiguity of Compliance and Conversational AI in the Collections Industry (From 4/30/2024)",
+        "Compliance Q&A about Webchats and Chatbots (From 5/9/2024)"
+      ],
+      "2025": [
+        "Using AI as a Research Tool and for Creation of Policies and Procedures (From 1/7/2025)",
+        "What are AI Agents and How to Make Them Work for You (From 1/14/2025)",
+        "How to Train Your Staff to Use AI and Large Language Models (From 2/4/2025)",
+        "Using AI & Automation to Help With Disputes (From 3/10/2025)",
+        "What You Can & Can’t Use LLMs for In Your Office (From 3/19/2025)",
+        "Agent AI-What It Is and What It Can Do For You (From 4/9/2025)"
+      ],
+      "2026": [
+        "AI vs. Human Judgment: Finding the Right Balance in Complex Decisions (From 1/12/2026)",
+        "Everything AI-Related You Need to be Concerned About (From 1/15/2026)",
+        "How To Manage a Digital/Agentic Workforce (From 1/26/2026)",
+        "The Jobs & Tasks That AI is Coming For (From 01/30/2026)",
+        "AI Assistants on the Phones: How to Deploy, Measure, and Govern Virtual Negotiators (From 2/3/2026)",
+        "Training the Trainers: How to Coach Managers for an AI-Powered Workforce (From 2/9/2026)"
+      ]
+    },
+    "ai_voice": {
+      "2021": [],
+      "2022": [],
+      "2023": [
+        "How Conversational Voice AI Helps the ARM Industry With Compliance and Improving Efficiency (From 4/13/2023)",
+        "Why Collection Agencies must Leverage Voice AI Technology",
+        "How Conversational AI can Help You Scale your Operation and Grow Your Business (From 8/22/2023)",
+        "How Technological Advances, like Voice AI, are Changing Collections Forever (From 11/21/2023)"
+      ],
+      "2024": [
+        "How Agencies are Using Virtual Agents (From 3/12/2024)",
+        "Addressing the Ambiguity of Compliance and Conversational AI in the Collections Industry (From 4/30/2024)",
+        "The Effectiveness of Conversational AI in the ARM Industry (From 5/30/2024)"
+      ],
+      "2025": [
+        "What are AI Agents and How to Make Them Work for You (From 1/14/2025)",
+        "Voicebot Technology-Where it is and Where it is Heading (From 4/15/2025)",
+        "Implementing AI Agents (From 4/17/2025)",
+        "Conversational AI in the ARM Industry Today (From 6/5/2025)",
+        "The Crawl/Walk/Run of Deploying Virtual Agents and Voicebots (From 6/27/2025)",
+        "20250716 – Deploying Voice AI Agents in a Secure and Compliant Way (From 7/16/2025)"
+      ],
+      "2026": [
+        "How To Manage a Digital/Agentic Workforce (From 1/26/2026)",
+        "How to Coach Agentic AI/Prompting (From 02/23/2026)",
+        "Beyond the Demo: How to Actually Evaluate and Deploy Virtual Agents in Collections (From 03/13/2026)",
+        "Outbound AI Voice Bots and the Law: Compliance Requirements You Cannot Ignore",
+        "Recognizing and Handling Consumer-Side AI Agents on Your Calls",
+        "How to start with Agentic AI"
+      ]
+    },
+    "compliance": {
+      "2021": [
+        "Best Practices When Collecting Past the Statute of Limitations (From 10/22/2021)",
+        "Updating Your Website to Get Ready for Reg F (From 10/25/2021)",
+        "Reg F Q&A (From 10/26/2021)",
+        "Making Sure You Have the Proper Consent (From 10/28/2021)",
+        "Reg F Q&A (From 11/1/2021)",
+        "Unpacking the CFPB’s New Guidance on the MVN and Validation Information (From 11/2/2021)"
+      ],
+      "2022": [
+        "What do Baiting Calls Look Like, post-Reg F? (From 1/5/2022)",
+        "How to Build an Internal Auditing Operation (From 1//5/2023)",
+        "How to Collect After the MVN is Sent Out (From 1/7/2022)",
+        "What’s New in Licensing and Regulations in 2022 (From 1/11/2022)",
+        "Should You Credit Report Under Reg F? (From 1/13/2022)",
+        "What You Need to Have Ready to Defend Reg F Lawsuits (From 1/17/2022)"
+      ],
+      "2023": [
+        "Audits vs. Risk Assessments (From 1/17/2023)",
+        "Someone Complained About You to the CFPB. What Do You Do Next (From 1/19/2023)",
+        "Managing the Growing Number of Audit Requirements & Increased Oversight From Clients and Vendors (From 2/1/2023)",
+        "How Artificial Intelligence is Driving Call Center Compliance (From 2/7/2023)",
+        "What Defines Harassment Under the FDCPA (From 2/28/2023)",
+        "The CFPB and the Supreme Court-What it Could Mean for You and the ARM Industry (From 3/3/2023)"
+      ],
+      "2024": [
+        "Defending Inconvenient TimePlace FDCPA Lawsuits (From 1/16/2024)",
+        "Making the Decision to Go Legal-How to Know When to File Collection Lawsuits (From 1/23/2024)",
+        "How the MVN Has Changed Since Reg F Went Into Effect (From 1/26/2024)",
+        "The Economics of Filing Collection Lawsuits (From 2/22/2024)",
+        "Preventing FCRA Dispute Lawsuits (From 2/23/2024)",
+        "An Update on The FCC’s Actions Related to the TCPA (From 3/1/2024)"
+      ],
+      "2025": [
+        "Breaking Down the CFPB’s Final Medical Debt Credit Reporting Rule (From 1/8/2025)",
+        "How to Turn a Compliance “No” into a “Let’s Figure it Out” (From 1/9/2025)",
+        "Will the Prohibitions on Credit Reporting Lead to More Collection Lawsuits? (From 2/3/2025)",
+        "Discussing the Changes at the Top of the CFPB (From 2/6/2025)",
+        "What You Need to Know About the States That Are Ramping Up Their Interest in Collections, post-CFPB (From 3/12/2025)",
+        "First Quarter Litigation Update (From 3/20/2025)"
+      ],
+      "2026": [
+        "The Pro Se Litigation Playbook (From 1/20/2026)",
+        "Breaking Down FCRA Lawsuit Trends (From 02/11/2026)",
+        "Assessing the Changes to the CFPB Complaint Database (From 03/02/2026)",
+        "The Consent You Need for Virtual, Electronic, and Digital communications (From 04/06/2026)",
+        "Compliance-First AI: Understand How Federal & State Agencies are Regulating AI in Collections (From 04/09/2026)",
+        "Breaking Down the CFPB’s Rule on Disparate Impact (From 04/23/2026)"
+      ]
+    },
+    "people": {
+      "2021": [
+        "How to Keep Employees From Leaving (From 11/3/2021)",
+        "How Technology Can Help With Your Staffing Issues (From 11/9/2021)",
+        "Role-Playing Collector-Consumer Interactions (From 11/17/2021)",
+        "20211118 – Leveraging AI to Tackle Reg F & Training Agents For It (From 11/18/2021)",
+        "Leveraging AI to Tackle Reg F & Training Agents For It (From 11/18/2021)",
+        "Adapting Your Training in the Regulation F Era (From 12/7/2021)"
+      ],
+      "2022": [
+        "Are the Skills Required to be a Good Collector Different Now Than They Were a Few Years ago? (From 1/10/2022)",
+        "How to Teach Collectors to Use the Right Tone of Voice (1/20/2022)",
+        "Role-Playing Conversations Between Collectors & Consumers (From 1/24/2022)",
+        "Turning Employees Into Leaders (From 1/28/2022)",
+        "Employee Development Plans for Call Center Agents/Managers (From 2/17/2022)",
+        "Minimizing Employee Turnover and How to Keep Employees From Leaving (From 3/1/2022)"
+      ],
+      "2023": [
+        "Adapting Coaching to the Different Learning Styles of Collectors (From 1/4/2023)",
+        "How to Recreate the Live Agent Experience Using Digital Collections and Technology (From 1/6/2023)",
+        "How to Get Consumers to Trust Your Collectors (From 1/9/2023)",
+        "How to Get Consumers to Trust Your Collectors (From 1/13/2023)",
+        "Using Speech Analytics as a Coaching Tool (From 2/14/2023)",
+        "How Technology is Creating Collector Superheroes (From 2/24/2023)"
+      ],
+      "2024": [
+        "Collector.Live! 2024: Mastering the Art of Negotiation",
+        "Collector.Live! 2024: Learning When to Ask the Right Question at the Right Time",
+        "Collector.Live! 2024: Walking the Tightrope of Awkward and Tense Conversations with Consumers",
+        "Collector.Live! 2024: The Most Common Mistakes Collectors Make",
+        "Collector.Live! 2024: Differentiating Between Verifications, Validations, and Disputes",
+        "Collector.Live! 2024: Keeping Experienced Collectors From Burning Out"
+      ],
+      "2025": [
+        "How to Identify & Hire People Who Are Going to Stay at Your Company (From 1/17/2025)",
+        "Traps that Consumers Set to Catch Collectors (From 1/31/2025)",
+        "How to Train Your Staff to Use AI and Large Language Models (From 2/4/2025)",
+        "Digital Training-Best Practices for Effectively Training Remote Employees (From 2/6/2025)",
+        "How to Get Collectors to Change Their Behaviors (From 2/13/2025)",
+        "How to Proactively Prevent Situations Where Consumers Attempt to Bait or Trap Collectors (From 2/21/2025)"
+      ],
+      "2026": [
+        "Reinvestigations Done Right: Practical Guidance for Furnishers and Collectors (From 1/5/2026)",
+        "From Turnover to Tenure (From 1/14/2026)",
+        "All the Tools Collectors Need in Their Toolbox (From 1/28/2026)",
+        "Training the Trainers: How to Coach Managers for an AI-Powered Workforce (From 2/9/2026)",
+        "How to Manage A, B, C, and D-level Collectors (From 02/16/2026)",
+        "How to Coach Agentic AI/Prompting (From 02/23/2026)"
+      ]
+    },
+    "credit_reporting": {
+      "2021": [],
+      "2022": [
+        "Ask The Credit Reporting Expert (From 2/28/2022)",
+        "What do the Changes in Medical Debt Credit Reporting Mean for the ARM Industry? (From 3/21/2022)",
+        "Ask The Credit Reporting Expert (From 3/28/2022)",
+        "Is Credit Reporting Still Worth It? (From 4/8/2022)",
+        "The Top Credit Reporting Mistakes That Agencies Tend to Make (From 4/19/2022)",
+        "Ask The Credit Reporting Expert (From 4/25/2022)"
+      ],
+      "2023": [
+        "Ask The Credit Reporting Expert (From 1/31/2023)",
+        "Medical Debt Credit Reporting – What You Need to Know (From 2/15/2023)",
+        "Ask The Credit Reporting Expert (From 2/23/2023)",
+        "The New Risks Associated with Credit Reporting-Does It Still Make Sense? (From 3/8/2023)",
+        "Ask the Credit Reporting Expert (From 3/24/2023)",
+        "Ask The Credit Reporting Expert (From 4/19/2023)"
+      ],
+      "2024": [
+        "The Main Event – Is Credit Reporting Still Worth it (From 1/10/20204)",
+        "An Update on Medical Debt Collection & Credit Reporting Laws and Regulations (From 3/27/2024)",
+        "How Credit Reporting Changes are Impacting Scoring and Data Analysis (From 4/22/2024)",
+        "Breaking Down the CFPB’s Proposed Medical Debt Credit Reporting Rule (From 6/13/2024)",
+        "Understanding the Different Compliance Condition Codes for Credit Reporting (From 6/19/2024)",
+        "Credit Reporting Q&A (From 7/1/2024)"
+      ],
+      "2025": [
+        "The Do’s and Don’ts of Credit Reporting Today (From 1/8/2025)",
+        "Breaking Down the CFPB’s Final Medical Debt Credit Reporting Rule (From 1/8/2025)",
+        "Will the Prohibitions on Credit Reporting Lead to More Collection Lawsuits? (From 2/3/2025)",
+        "Credit Reporting-The Future Landscape for Lenders and Collectors (From 4/17/2025)",
+        "Medical Debt Strategy-New Approaches In a Post-Credit Reporting Environment (From 4/21/2025)",
+        "20250714 – Is the CFPB’s Medical Debt Credit Reporting Rule Finally Dead (From 7/14/2025)"
+      ],
+      "2026": [
+        "Reinvestigations Done Right: Practical Guidance for Furnishers and Collectors (From 1/5/2026)",
+        "Is Credit Reporting Still Worth It? (From 03/3/2026)",
+        "The Long-Term and Short-Term Impact of Credit Reporting Changes on Collections & Engaging with Consumers (From 04/14/2026)",
+        "What is Frivolous in Today’s Credit Reporting World (From 05/20/2026)",
+        "Collecting Through Bankruptcy: Discharge Reporting and Metro 2 Done Right",
+        "The Middlemen: When Debt Settlement and Credit Repair Get Involved"
+      ]
+    },
+    "disputes": {
+      "2021": [
+        "Unpacking the CFPB’s New Guidance on the MVN and Validation Information (From 11/2/2021)",
+        "Plaintiff’s Attorneys Discuss the Model Validation Notice (From 11/11/2021)",
+        "Conversations to Have During the Validation Period (From 12/16/2021)"
+      ],
+      "2022": [
+        "Dealing with the Expected Influx of Disputes (From 1/4/2022)",
+        "Dispute Investigation/Resolution Best Practices (From 1/21/2022)",
+        "Are We Any Closer to a Definition of “Substantially Similar” for the Model Validation Notice?\t(From 11/29/2022)",
+        "Training Collectors to Properly Identify a Dispute (From 12/8/2022)"
+      ],
+      "2023": [
+        "<strong>How Should an Agency Respond to a Consumer’s Validation Request (From 1/24/2023)</strong>",
+        "Using Digital Collections and Technology to Improve Dispute Processing (From 2/10/2023)",
+        "Is Everything a Dispute? How to Train Collectors (From 4/25/2023)",
+        "Dispute Best Practices in the Wake of Recent Enforcement Orders (From 7/19/2023)",
+        "Are Your Dispute Investigation Policies & Procedures Adequate (From 12/21/2023)"
+      ],
+      "2024": [
+        "Collector.Live! 2024: Differentiating Between Verifications, Validations, and Disputes",
+        "The Difference Between Direct Disputes and Indirect Disputes and How Each Should be Handled (From 2/2/24)",
+        "Preventing FCRA Dispute Lawsuits (From 2/23/2024)",
+        "The Most Common Disputes and How to Investigate Them (From 5/31/2024)",
+        "Communication Best Practices – Managing Disputes & Cease Requests To Prevent Lawsuits (From 9/24/2024)",
+        "Handling Post-Validation Period Requests for Validation (From 9/27/2024)"
+      ],
+      "2025": [
+        "How to Structure a Dispute Operation (From 1/27/2025)",
+        "What’s the Difference Between a Consumer Complaint and a Dispute (From 2/10/2025)",
+        "Direct vs. Indirect Disputes (From 2/26/2025)",
+        "How to Make Sure You Are Marking Accounts as Ceases and Disputes Properly (From 3/4/2025)",
+        "Using AI & Automation to Help With Disputes (From 3/10/2025)",
+        "The Complaint/Dispute Data You Should be Tracking and What to do With it (From 3/21/2025)"
+      ],
+      "2026": [
+        "What is Frivolous in Today’s Credit Reporting World (From 05/20/2026)",
+        "Breaking Down the Most Common FCRA Disputes You’re Seeing Right Now — and What to Do With Them",
+        "Direct Disputes & Liability: When Consumers Come Right to You",
+        "Handling ID-Theft and Fraud Disputes When the Documentation Is Thin"
+      ]
+    }
+  },
+  "caveats": [
+    "2021 covers Oct to Dec only (n=50); the archive's first record is 2021-10-22.",
+    "2026 runs through Sep 15 (n=182), so its annual bar is three-quarters of a year.",
+    "Multi-label: a title can count toward several themes. Shares do not sum to 100.",
+    "Titles only. Session bodies are paywalled, so this measures what the industry chose to PROGRAM, not what was said inside the room."
+  ]
+}
