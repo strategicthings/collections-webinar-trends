@@ -20,7 +20,7 @@ THEMES = {
         "label": "Text, email & omnichannel",
         "pat": r"\b(text(?:s|ing|ed)?|SMS|MMS|10DLC|short ?codes?|e-?mails?|"
                r"omni-?channel|digital communicat\w*|digital channel\w*|"
-               r"channel stack\w*|inbox|spam)\b",
+               r"channel stack\w*|inbox|spam folder\w*)\b",
     },
     "digital_strategy": {
         "label": "Digital-first strategy",
@@ -29,7 +29,7 @@ THEMES = {
                r"going digital|digital adoption)\b",
     },
     "phone_contact": {
-        "label": "Phone, calls & reaching people",
+        "label": "Phone & call-center operations",
         "pat": r"\b(phones?|calls?|calling|caller|dialer\w*|voice ?mail|"
                r"right[- ]part\w+ contact|RPC|answer rates?|contact rates?|"
                r"connect rates?|call ?center|reassigned numbers?|"
@@ -39,16 +39,27 @@ THEMES = {
         "label": "AI (any)",
         # 'AI' stays case-sensitive; everything else is (?i:) scoped, so
         # 'Voice AI' matches but 'email' and 'training' do not.
-        "pat": r"(\bAI\b|(?i:\bartificial intelligence\b|\bmachine learning\b|"
-               r"\bgenerative\b|\bchat ?bots?\b|\bLLMs?\b|\balgorithms?\b|"
-               r"\bautomation\b|\bautomated\b))",
+        # 2026-09-16: added spelled-out "large language model" and product names,
+        # which the LLM-acronym-only pattern missed. Removed bare "automation" and
+        # "algorithms": "Problems You Can Solve with Robotic Process Automation" is
+        # not evidence of AI. Titles carrying both still match on the AI token.
+        "pat": r"(\bAI\b|\bGPT\b|\bLLMs?\b|(?i:\bartificial intelligence\b|"
+               r"\bmachine learning\b|\blarge language models?\b|\bgenerative\b|"
+               r"\bchat ?bots?\b|\bChatGPT\b|\bco-?pilot\b|\bagentic\b))",
     },
     "ai_voice": {
-        "label": "Voice AI & agentic voice",
-        "pat": r"((?i:\bvoice ?)AI\b|\bAI ?(?i:voice)\b|(?i:\bvoice ?bots?\b|"
-               r"\bagentic\b|\bsynthetic voice\b|\bvirtual agents?\b)|"
-               r"(?i:\bconversational )AI\b|\bAI (?i:agents?)\b|"
-               r"\bAI (?i:collector\w*)\b)",
+        "label": "Voice AI",
+        # Rebuilt 2026-09-16. The old pattern matched 'agentic' on its own, so
+        # "How to start with Agentic AI" counted as voice, and it missed
+        # "AI on the Phone: The Voice (and Final) Frontier" entirely. Now a title
+        # must carry BOTH an AI signal and a voice/phone signal. Handled in
+        # classify() because it is a conjunction, not one alternation.
+        "pat": r"(?!x)x",   # never matches directly; see classify()
+        "conjunction": (
+            r"(\bAI\b|(?i:artificial intelligence|machine learning|generative|"
+            r"conversational|voicebots?|voice ?bots?))",
+            r"(?i)\b(voice|phone|call|calling|dialer|speech|spoken|IVR|voicebots?)\w*\b",
+        ),
     },
     # ---- controls. if these move the same way, the "trend" is programming mix.
     "compliance": {
@@ -59,9 +70,12 @@ THEMES = {
     },
     "people": {
         "label": "Hiring, training & staffing (control)",
-        "pat": r"\b(hir(?:e|ing)|train(?:ing|ed)?|coach\w*|onboard\w*|retention|"
-               r"retain\w*|employees?|staff\w*|collectors?|agents? (?:performance|"
-               r"experience)|burn(?:ing)? out|turnover|mentorship|recruit\w*)\b",
+        # 2026-09-16: "train" no longer matches when the object is a model, and
+        # bare "agent(s)" now counts EXCEPT where it is an AI/virtual/digital agent.
+        "pat": r"\b(hir(?:e|ing)|train(?:ing|ed)?(?! +(?:your +)?(?:AI|LLM|model))|"
+               r"coach\w*|onboard\w*|retention|retain\w*|employees?|staff\w*|"
+               r"collectors?|(?<!AI )(?<!virtual )(?<!digital )(?<!agentic )agents?|"
+               r"burn(?:ing)? out|turnover|mentorship|recruit\w*|workforce)\b",
     },
     # ---- emergent, surfaced by an open token rise/fall pass, not hypothesized.
     # An earlier version bundled disputes WITH credit reporting and the combined
@@ -83,9 +97,17 @@ _COMPILED = {
 }
 
 
+_CONJ = {k: (re.compile(v["conjunction"][0]), re.compile(v["conjunction"][1]))
+         for k, v in THEMES.items() if "conjunction" in v}
+
+
 def classify(title: str) -> set[str]:
     """Return the set of theme keys a title matches."""
-    hits = {k for k, rx in _COMPILED.items() if rx.search(title)}
+    hits = {k for k, rx in _COMPILED.items()
+            if k not in _CONJ and rx.search(title)}
+    for k, (a, b) in _CONJ.items():
+        if a.search(title) and b.search(title):
+            hits.add(k)
     # voice AI implies AI; keep the general bucket a true superset
     if "ai_voice" in hits:
         hits.add("ai_general")

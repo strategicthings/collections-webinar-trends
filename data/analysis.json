@@ -1,7 +1,7 @@
 {
   "generated": "2026-09-16",
   "corpus": {
-    "records": 1309,
+    "records": 1303,
     "range": [
       "2021-10-22",
       "2026-09-15"
@@ -30,19 +30,19 @@
     "2026Q3"
   ],
   "quarterly_n": [
-    50,
+    48,
     63,
     72,
-    69,
+    68,
     62,
     66,
-    72,
+    71,
     63,
     61,
     79,
     66,
-    69,
-    66,
+    68,
+    65,
     64,
     74,
     66,
@@ -60,10 +60,10 @@
     "2026"
   ],
   "annual_n": [
-    50,
-    266,
-    262,
-    280,
+    48,
+    265,
+    261,
+    278,
     269,
     182
   ],
@@ -74,7 +74,7 @@
         0.0,
         1.6,
         1.4,
-        1.4,
+        1.5,
         1.6,
         3.0,
         0.0,
@@ -135,20 +135,20 @@
     "digital_comms": {
       "label": "Text, email & omnichannel",
       "quarterly": [
-        2.0,
+        2.1,
         1.6,
         4.2,
-        4.3,
+        4.4,
         1.6,
         4.5,
-        9.7,
-        6.3,
+        8.5,
+        4.8,
         6.6,
         3.8,
         10.6,
-        8.7,
-        15.2,
-        3.1,
+        8.8,
+        15.4,
+        1.6,
         4.1,
         10.6,
         9.2,
@@ -163,14 +163,14 @@
         3,
         1,
         3,
-        7,
-        4,
+        6,
+        3,
         4,
         3,
         7,
         6,
         10,
-        2,
+        1,
         3,
         7,
         6,
@@ -179,22 +179,22 @@
         3
       ],
       "annual": [
-        2.0,
+        2.1,
         3.0,
-        6.9,
-        9.3,
-        6.7,
+        6.1,
+        9.4,
+        6.3,
         5.5
       ],
       "annual_n": [
         1,
         8,
-        18,
+        16,
         26,
-        18,
+        17,
         10
       ],
-      "total": 81
+      "total": 78
     },
     "digital_strategy": {
       "label": "Digital-first strategy",
@@ -210,8 +210,8 @@
         4.9,
         3.8,
         0.0,
-        1.4,
-        3.0,
+        1.5,
+        3.1,
         0.0,
         2.7,
         0.0,
@@ -246,7 +246,7 @@
         0.0,
         1.5,
         4.6,
-        2.1,
+        2.2,
         0.7,
         1.6
       ],
@@ -261,21 +261,21 @@
       "total": 27
     },
     "phone_contact": {
-      "label": "Phone, calls & reaching people",
+      "label": "Phone & call-center operations",
       "quarterly": [
-        2.0,
+        2.1,
         6.3,
         4.2,
         2.9,
         4.8,
         1.5,
-        8.3,
+        8.5,
         4.8,
         4.9,
         3.8,
         0.0,
-        10.1,
-        3.0,
+        8.8,
+        3.1,
         3.1,
         1.4,
         3.0,
@@ -296,7 +296,7 @@
         3,
         3,
         0,
-        7,
+        6,
         2,
         2,
         1,
@@ -307,10 +307,10 @@
         3
       ],
       "annual": [
-        2.0,
+        2.1,
         4.5,
         5.0,
-        4.3,
+        4.0,
         2.2,
         4.9
       ],
@@ -318,99 +318,99 @@
         1,
         12,
         13,
-        12,
+        11,
         6,
         9
       ],
-      "total": 53
+      "total": 52
     },
     "ai_general": {
       "label": "AI (any)",
       "quarterly": [
-        4.0,
+        2.1,
         0.0,
         1.4,
-        1.4,
+        1.5,
         0.0,
-        3.0,
-        5.6,
-        6.3,
-        8.2,
-        3.8,
-        7.6,
-        5.8,
-        3.0,
+        4.5,
+        8.5,
+        7.9,
+        9.8,
+        2.5,
+        9.1,
+        5.9,
+        3.1,
         7.8,
         8.1,
         13.6,
         12.3,
-        21.5,
+        20.0,
         20.6,
         18.5
       ],
       "quarterly_n": [
-        2,
+        1,
         0,
         1,
         1,
         0,
-        2,
-        4,
-        4,
-        5,
         3,
+        6,
         5,
+        6,
+        2,
+        6,
         4,
         2,
         5,
         6,
         9,
         8,
-        14,
+        13,
         13,
         10
       ],
       "annual": [
-        4.0,
+        2.1,
         0.8,
-        5.7,
+        7.7,
         5.0,
         10.4,
-        20.3
+        19.8
       ],
       "annual_n": [
+        1,
         2,
-        2,
-        15,
+        20,
         14,
         28,
-        37
+        36
       ],
-      "total": 98
+      "total": 101
     },
     "ai_voice": {
-      "label": "Voice AI & agentic voice",
+      "label": "Voice AI",
       "quarterly": [
         0.0,
         0.0,
         0.0,
         0.0,
         0.0,
+        1.5,
+        4.2,
         0.0,
-        2.8,
-        1.6,
-        1.6,
-        1.3,
-        3.0,
+        3.3,
         0.0,
         0.0,
-        1.6,
-        5.4,
+        0.0,
+        0.0,
+        0.0,
+        2.7,
         4.5,
         1.5,
-        4.6,
-        1.6,
-        5.6
+        1.5,
+        3.2,
+        3.7
       ],
       "quarterly_n": [
         0,
@@ -418,56 +418,56 @@
         0,
         0,
         0,
+        1,
+        3,
         0,
-        2,
-        1,
-        1,
-        1,
         2,
         0,
         0,
-        1,
-        4,
+        0,
+        0,
+        0,
+        2,
         3,
         1,
-        3,
         1,
-        3
+        2,
+        2
       ],
       "annual": [
         0.0,
         0.0,
-        1.5,
-        1.1,
-        3.3,
-        3.8
+        2.3,
+        0.0,
+        2.2,
+        2.7
       ],
       "annual_n": [
         0,
         0,
-        4,
-        3,
-        9,
-        7
+        6,
+        0,
+        6,
+        5
       ],
-      "total": 23
+      "total": 17
     },
     "compliance": {
       "label": "Compliance & regulatory (control)",
       "quarterly": [
-        58.0,
+        56.2,
         27.0,
         18.1,
-        10.1,
+        10.3,
         24.2,
         16.7,
-        13.9,
+        14.1,
         14.3,
         14.8,
         13.9,
         15.2,
-        11.6,
-        12.1,
+        11.8,
+        12.3,
         9.4,
         13.5,
         10.6,
@@ -477,7 +477,7 @@
         9.3
       ],
       "quarterly_n": [
-        29,
+        27,
         17,
         13,
         7,
@@ -499,86 +499,86 @@
         5
       ],
       "annual": [
-        58.0,
-        19.5,
+        56.2,
+        19.6,
         14.9,
-        13.2,
+        13.3,
         12.3,
         11.0
       ],
       "annual_n": [
-        29,
+        27,
         52,
         39,
         37,
         33,
         20
       ],
-      "total": 210
+      "total": 208
     },
     "people": {
       "label": "Hiring, training & staffing (control)",
       "quarterly": [
-        12.0,
+        10.4,
         11.1,
         8.3,
-        13.0,
+        16.2,
         11.3,
-        12.1,
-        11.1,
-        15.9,
-        8.2,
-        24.1,
-        10.6,
-        7.2,
-        9.1,
-        17.2,
-        12.2,
         13.6,
+        11.3,
+        17.5,
+        8.2,
+        25.3,
+        12.1,
+        8.8,
         10.8,
-        21.5,
-        9.5,
-        5.6
+        17.2,
+        13.5,
+        12.1,
+        12.3,
+        23.1,
+        11.1,
+        7.4
       ],
       "quarterly_n": [
-        6,
-        7,
-        6,
-        9,
-        7,
-        8,
-        8,
-        10,
         5,
-        19,
         7,
-        5,
         6,
         11,
-        9,
-        9,
         7,
-        14,
+        9,
+        8,
+        11,
+        5,
+        20,
+        8,
         6,
-        3
+        7,
+        11,
+        10,
+        8,
+        8,
+        15,
+        7,
+        4
       ],
       "annual": [
-        12.0,
-        10.9,
-        11.8,
-        13.2,
-        13.4,
-        12.6
+        10.4,
+        11.7,
+        12.6,
+        14.7,
+        13.8,
+        14.3
       ],
       "annual_n": [
-        6,
-        29,
+        5,
         31,
+        33,
+        41,
         37,
-        36,
-        23
+        26
       ],
-      "total": 162
+      "total": 173
     },
     "credit_reporting": {
       "label": "Credit reporting & furnishing",
@@ -586,7 +586,7 @@
         0.0,
         4.8,
         8.3,
-        7.2,
+        7.4,
         6.5,
         7.6,
         5.6,
@@ -594,7 +594,7 @@
         4.9,
         2.5,
         4.5,
-        5.8,
+        5.9,
         1.5,
         4.7,
         2.7,
@@ -647,7 +647,7 @@
     "disputes": {
       "label": "Disputes",
       "quarterly": [
-        6.0,
+        6.2,
         3.2,
         0.0,
         0.0,
@@ -659,7 +659,7 @@
         3.8,
         1.5,
         2.9,
-        4.5,
+        4.6,
         9.4,
         4.1,
         6.1,
@@ -691,7 +691,7 @@
         2
       ],
       "annual": [
-        6.0,
+        6.2,
         1.5,
         1.9,
         3.2,
@@ -763,7 +763,7 @@
         "Answering All Your Questions About Texting, Emailing and Consent, Once and For All (From 3/17/2023)",
         "Getting Emails into Inboxes and Not Into Spam Folders (From 4/5/2023)",
         "Answering All Your Questions About Texting, Emailing and Consent, Once and For All, Part II (From 4/26/2023)",
-        "Avoiding Spam/Scam Labels on Outgoing Calls (From 5/1/2023)"
+        "Offering Settlements Using Digital Communications (From 5/9/2023)"
       ],
       "2024": [
         "Checking the Tone of Your Email Communications (From 1/24/2024)",
@@ -774,12 +774,12 @@
         "How to Keep Email and Text Opt-Out Rates Low (From 5/2/2024)"
       ],
       "2025": [
-        "The Steps You Can Take to Keep Your Numbers From Being Labeled as Spam (From 1/15/2025)",
         "How to Effectively Engage in Two-Way Digital Communications with Consumers (From 3/25/2025)",
         "How to Filter & Respond to Digital Communications (From 4/18/2025)",
         "Reviewing Letters and Digital Communications (From 5/8/2025)",
         "Testing Digital Communication Campaigns (From 5/13/2025)",
-        "Best Email Communication Strategies (From 7/2/2025)"
+        "Best Email Communication Strategies (From 7/2/2025)",
+        "The Disclosures You Need to Make When Communicating via Email and Text (From 7/7/2025)"
       ],
       "2026": [
         "How to Use RCS, SMS, and MMS Effectively (From 02/17/2026)",
@@ -871,8 +871,7 @@
     },
     "ai_general": {
       "2021": [
-        "20211118 – Leveraging AI to Tackle Reg F & Training Agents For It (From 11/18/2021)",
-        "Leveraging AI to Tackle Reg F & Training Agents For It (From 11/18/2021)"
+        "20211118 – Leveraging AI to Tackle Reg F & Training Agents For It (From 11/18/2021)"
       ],
       "2022": [
         "Stop Dialing for Dollars: How Machine Learning and Scoring can Help you Collect More While Working Less  (From 6/20/2022)",
@@ -880,19 +879,19 @@
       ],
       "2023": [
         "How Artificial Intelligence is Driving Call Center Compliance (From 2/7/2023)",
+        "ChatGPT and the ARM Industry (From 3/10/2023)",
         "Everything You Need to Know about Chatbots and Webchat (From 3/26/2023)",
+        "What are the Best ChatGPT Prompts for Collection Operations to Use (From 4/6/2023)",
         "How AI Can Help Collectors Automate After-Call Work (From 4/11/2023)",
-        "How Conversational Voice AI Helps the ARM Industry With Compliance and Improving Efficiency (From 4/13/2023)",
-        "The Different Types of Artificial Intelligence and How They Are Used in Collections (From 5/22/2023)",
-        "Why Collection Agencies must Leverage Voice AI Technology"
+        "How Conversational Voice AI Helps the ARM Industry With Compliance and Improving Efficiency (From 4/13/2023)"
       ],
       "2024": [
         "Why You Need an AI Policy for Your Company (From 1/5/2024)",
         "Understanding the Different Types of AI and What They are Doing for the ARM Industry (From 3/19/20204)",
-        "How Agencies are Using Virtual Agents (From 3/12/2024)",
         "Communicating via Chat and Using Chatbots (From 4/11/2024)",
         "Addressing the Ambiguity of Compliance and Conversational AI in the Collections Industry (From 4/30/2024)",
-        "Compliance Q&A about Webchats and Chatbots (From 5/9/2024)"
+        "Compliance Q&A about Webchats and Chatbots (From 5/9/2024)",
+        "The Effectiveness of Conversational AI in the ARM Industry (From 5/30/2024)"
       ],
       "2025": [
         "Using AI as a Research Tool and for Creation of Policies and Procedures (From 1/7/2025)",
@@ -915,31 +914,28 @@
       "2021": [],
       "2022": [],
       "2023": [
+        "How Artificial Intelligence is Driving Call Center Compliance (From 2/7/2023)",
+        "How AI Can Help Collectors Automate After-Call Work (From 4/11/2023)",
         "How Conversational Voice AI Helps the ARM Industry With Compliance and Improving Efficiency (From 4/13/2023)",
         "Why Collection Agencies must Leverage Voice AI Technology",
-        "How Conversational AI can Help You Scale your Operation and Grow Your Business (From 8/22/2023)",
-        "How Technological Advances, like Voice AI, are Changing Collections Forever (From 11/21/2023)"
+        "How Technological Advances, like Voice AI, are Changing Collections Forever (From 11/21/2023)",
+        "How to Improve the Customer Call Center Experience Using AI (From 12/4/2023)"
       ],
-      "2024": [
-        "How Agencies are Using Virtual Agents (From 3/12/2024)",
-        "Addressing the Ambiguity of Compliance and Conversational AI in the Collections Industry (From 4/30/2024)",
-        "The Effectiveness of Conversational AI in the ARM Industry (From 5/30/2024)"
-      ],
+      "2024": [],
       "2025": [
-        "What are AI Agents and How to Make Them Work for You (From 1/14/2025)",
         "Voicebot Technology-Where it is and Where it is Heading (From 4/15/2025)",
-        "Implementing AI Agents (From 4/17/2025)",
-        "Conversational AI in the ARM Industry Today (From 6/5/2025)",
         "The Crawl/Walk/Run of Deploying Virtual Agents and Voicebots (From 6/27/2025)",
-        "20250716 – Deploying Voice AI Agents in a Secure and Compliant Way (From 7/16/2025)"
+        "20250716 – Deploying Voice AI Agents in a Secure and Compliant Way (From 7/16/2025)",
+        "The Impact of Voicebots on Nearshore/Offshore Operations (From 8/19/2025)",
+        "The Questions You Need Your Voicebot to be Able to Answer (From 8/29/2025)",
+        "The Future of Call QA: Real-Time Accuracy and Performance Coaching using AI (From 10/20/2025)"
       ],
       "2026": [
-        "How To Manage a Digital/Agentic Workforce (From 1/26/2026)",
-        "How to Coach Agentic AI/Prompting (From 02/23/2026)",
-        "Beyond the Demo: How to Actually Evaluate and Deploy Virtual Agents in Collections (From 03/13/2026)",
+        "AI Assistants on the Phones: How to Deploy, Measure, and Govern Virtual Negotiators (From 2/3/2026)",
+        "How AI Can Help Get Through Call Screening Technology (From 05/13/2026)",
         "Outbound AI Voice Bots and the Law: Compliance Requirements You Cannot Ignore",
         "Recognizing and Handling Consumer-Side AI Agents on Your Calls",
-        "How to start with Agentic AI"
+        "AI on the Phone: The Voice (and Final) Frontier"
       ]
     },
     "compliance": {
@@ -998,7 +994,6 @@
         "How Technology Can Help With Your Staffing Issues (From 11/9/2021)",
         "Role-Playing Collector-Consumer Interactions (From 11/17/2021)",
         "20211118 – Leveraging AI to Tackle Reg F & Training Agents For It (From 11/18/2021)",
-        "Leveraging AI to Tackle Reg F & Training Agents For It (From 11/18/2021)",
         "Adapting Your Training in the Regulation F Era (From 12/7/2021)"
       ],
       "2022": [
@@ -1036,10 +1031,10 @@
       "2026": [
         "Reinvestigations Done Right: Practical Guidance for Furnishers and Collectors (From 1/5/2026)",
         "From Turnover to Tenure (From 1/14/2026)",
+        "How To Manage a Digital/Agentic Workforce (From 1/26/2026)",
+        "The Multi-Generational Workforce Challenge (From 1/27/2026)",
         "All the Tools Collectors Need in Their Toolbox (From 1/28/2026)",
-        "Training the Trainers: How to Coach Managers for an AI-Powered Workforce (From 2/9/2026)",
-        "How to Manage A, B, C, and D-level Collectors (From 02/16/2026)",
-        "How to Coach Agentic AI/Prompting (From 02/23/2026)"
+        "Training the Trainers: How to Coach Managers for an AI-Powered Workforce (From 2/9/2026)"
       ]
     },
     "credit_reporting": {

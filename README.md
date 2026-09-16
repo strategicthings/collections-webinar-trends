@@ -1,8 +1,8 @@
 # Five Years of Collections Webinars
 
 I had a theory about how debt-collection industry messaging evolved: payment portals first, then
-texting and email, then "nobody answers the phone," then AI voice bots. I tested it against 1,309
-webinar titles and half of it was wrong.
+texting and email, then "nobody answers the phone," then AI voice bots. I tested it against 1,303
+webinar sessions. One part cleanly held.
 
 **Read the analysis: https://strategicthings.github.io/collections-webinar-trends/**
 
@@ -10,25 +10,44 @@ webinar titles and half of it was wrong.
 
 | Claim | Verdict | Evidence |
 |---|---|---|
-| Payment portals were a hype wave | Fails | 0% in 2021, then 1.1% to 2.2% a year. 22 of 1,309. |
-| Then texting, email and omnichannel | Holds | 3.0% (2022) to a 9.3% peak (2024), down to 5.5% (2026). |
-| Then "nobody answers the phone" | Fails | Flat, 4.5% to 4.9%, and it rebounded in 2026. |
-| Now AI voice bots dominate | Partly | AI reaches 20.3%. A voice-specific figure is withdrawn, see Corrections. |
+| Payment portals were a hype wave | Fails | 0% in 2021, then 1.1% to 2.2% a year. 22 of 1,303. |
+| Then texting, email and omnichannel | Holds | 3.0% (2022) to a 9.4% peak (2024), down to 5.5% (2026). |
+| Then "nobody answers the phone" | **Not established** | My phone category is a keyword bucket that counts call-center staffing and misses the avoidance framing. It shows no trend but cannot test the claim. |
+| Now AI voice bots dominate | Partly | AI reaches 19.8%. Voice AI specifically reaches 2.7%, on 17 sessions. |
 
-AI went from 0.8% of 2022 sessions to 20.3% of 2026 sessions. Read chronologically the AI sessions
+AI went from 0.8% of 2022 sessions to 19.8% of 2026 sessions. Read chronologically the AI sessions
 move through four stages: explainer (2023), policy (2024), enablement (2025), workforce management
 (2026).
 
 **The caveat that matters.** These are sponsored webinars. AI sessions show a readable sponsor label
-85.9% of the time (79 of 92) against 70.7% (65 of 92) for a year-matched non-AI baseline. Gap 15.2
-points, 95% CI 3.5 to 26.9, p = 0.012. Both figures count sponsor labels OCR could read, so both are
-floors. An association between sponsorship and topic does not establish which way causation runs,
-and this test cannot separate them.
+85.7% of the time (78 of 91) against 71.4% (65 of 91) for a year-matched non-AI baseline. Gap 14.3
+points, 95% CI 2.5 to 26.0, p = 0.019.
+
+Read that as a difference in *OCR-detected sponsor labels*, not in sponsorship. Both rates are
+undercounts, at least one miss is known and unfixed, and undercounting both rates does not bound
+their difference in either direction. An association also says nothing about which way causation
+runs.
 
 ## Corrections, 2026-09-16
 
-The first version was public for several hours before an independent code review found six errors.
-All are fixed and listed in section 08 of the page. The material ones:
+Two rounds of independent code review found thirteen errors between them. All are fixed and listed
+in full in section 08 of the page. Round two changed the headline: the phone verdict moved from
+"fails" to "not established," so "half of it was wrong" was no longer accurate.
+
+Round two:
+
+- **Six duplicate events inflated every share.** A session and its promo card can both be indexed.
+  Deduplicating by title and date gives 1,303 events from 1,309 dated records. One pair sat in both
+  arms of the sponsorship sample; re-run deduplicated, the gap is 14.3 points (was 15.2).
+- **The voice-AI series was still being plotted** after the card said it was withdrawn. Rebuilt
+  instead: a title now needs an AI signal *and* a voice or phone signal. Reads 2.7% for 2026 on 17
+  sessions.
+- **"Lower bound" on the sponsorship gap was wrong** and is retracted. Bounds on two rates do not
+  bound their difference.
+- **Four date-parsing defects**, including a length guard that rejected valid short dates and a
+  malformed year that borrowed the image's upload year. No stored date changed.
+
+Round one:
 
 - **OCR ran in fast mode, not accurate.** Vision defines Accurate=0, Fast=1; the code passed 1 with a
   comment claiming accurate. Fast mode misread sponsor labels ("Spon50r:"). Corrected figures moved

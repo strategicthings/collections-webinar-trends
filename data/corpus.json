@@ -181,7 +181,8 @@
     "date": "2021-11-15",
     "url": "https://www.accountsrecovery.net/courses/building-a-communication-workflow-under-reg-f-from-11-15-2021/",
     "date_rule": "numeric",
-    "date_precision": "day"
+    "date_precision": "day",
+    "duplicate_of": 221695
   },
   {
     "id": 224256,
@@ -213,7 +214,8 @@
     "date": "2021-11-18",
     "url": "https://www.accountsrecovery.net/courses/leveraging-ai-to-tackle-reg-f-training-agents-for-it-from-11-18-2021/",
     "date_rule": "numeric",
-    "date_precision": "day"
+    "date_precision": "day",
+    "duplicate_of": 221686
   },
   {
     "id": 224226,
@@ -1797,7 +1799,8 @@
     "date": "2022-08-18",
     "url": "https://www.accountsrecovery.net/courses/apis-for-dummies-from-8-18-2022-2/",
     "date_rule": "numeric",
-    "date_precision": "day"
+    "date_precision": "day",
+    "duplicate_of": 226726
   },
   {
     "id": 226724,
@@ -3453,7 +3456,8 @@
     "date": "2023-05-31",
     "url": "https://www.accountsrecovery.net/courses/why-you-should-develop-an-online-reputation-as-a-collection-agency-from-5-31-2023-2/",
     "date_rule": "numeric",
-    "date_precision": "day"
+    "date_precision": "day",
+    "duplicate_of": 232501
   },
   {
     "id": 232505,
@@ -6197,7 +6201,8 @@
     "date": "2024-09-03",
     "url": "https://www.accountsrecovery.net/courses/building-collection-strategies-to-capitalize-on-consumers-mobile-phone-usage-from-9-3-2024-2/",
     "date_rule": "numeric",
-    "date_precision": "day"
+    "date_precision": "day",
+    "duplicate_of": 241511
   },
   {
     "id": 241515,
@@ -6469,7 +6474,8 @@
     "date": "2024-10-22",
     "url": "https://www.accountsrecovery.net/courses/vetting-your-vendors-from-10-22-2024-2/",
     "date_rule": "numeric",
-    "date_precision": "day"
+    "date_precision": "day",
+    "duplicate_of": 242351
   },
   {
     "id": 242368,
