@@ -15,20 +15,24 @@ webinar sessions. One part cleanly held.
 | Then "nobody answers the phone" | **Not established** | My phone category is a keyword bucket that counts call-center staffing and misses the avoidance framing. It shows no trend but cannot test the claim. |
 | Now AI voice bots dominate | Partly | AI reaches 19.8% (36 of 182). Voice AI specifically reaches 2.7%, which is 5 events of 182; 17 across the whole archive. |
 
-AI went from 0.8% of 2022 sessions to 19.8% of 2026 sessions. Read chronologically the AI sessions
-move through four stages: explainer (2023), policy (2024), enablement (2025), workforce management
-(2026).
+AI went from 0.8% of 2022 events to 19.8% of 2026 events.
 
-**The obvious objection, tested four times and still unsettled.** These are sponsored webinars, so
-the obvious challenge is that a rising AI share measures vendor spend. AI events show a sponsor label
-88.2% of the time (82 of 93) against 76.3% (71 of 93) for a year-matched baseline. Gap 11.8 points,
-95% CI 1.0 to 22.7, p = 0.035. Every event reading unsponsored was checked by eye, because OCR proved
-unreliable on these cards.
+Read chronologically, the AI titles suggest a shift in emphasis: mostly explainer in 2023, mostly
+policy in 2024, mostly enablement in 2025, mostly workforce management in 2026. **That is an
+illustrated reading of the titles, not a coded classification**, and the years overlap in both
+directions: 2023 already had *What are the Best ChatGPT Prompts for Collection Operations to Use*,
+and 2026 still has *AI 101: Back to the Basics*.
 
-**Do not treat that as settled.** Across five runs the gap read 20.7, 15.2, 14.3, 10.6 and 11.8, and
-it moved each time a methodological choice changed rather than each time new data arrived. It also
-says nothing about causation. What is solid is duller: between three quarters and nine tenths of this
-calendar carries a sponsor, whatever the topic.
+**The obvious objection, tested.** These are sponsored webinars, so the challenge is that a rising AI
+share measures vendor spend. AI events show a sponsor label 88.2% of the time (82 of 93) against
+76.3% (71 of 93) for a year-matched baseline. Gap 11.8 points, 95% CI 1.0 to 22.7, p = 0.035. Every
+event reading unsponsored was checked by eye, because OCR is unreliable on these cards.
+
+**Do not treat the magnitude as settled.** The interval spans 1 to 23 points and the estimate is
+sensitive to how the sample is drawn and how a label is detected. It also says nothing about
+causation. Sponsor labels were common in both samples, and because both are year-weighted to the AI
+distribution, neither describes the calendar as a whole. Detail: `sponsorship-test/` in the analysis
+repo.
 
 ## Data
 
