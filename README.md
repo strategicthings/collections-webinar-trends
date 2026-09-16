@@ -30,51 +30,6 @@ it moved each time a methodological choice changed rather than each time new dat
 says nothing about causation. What is solid is duller: between three quarters and nine tenths of this
 calendar carries a sponsor, whatever the topic.
 
-## Corrections, 2026-09-16
-
-Two rounds of independent code review found thirteen errors between them. All are fixed and listed
-in full in section 08 of the page. Round two changed the headline: the phone verdict moved from
-"fails" to "not established," so "half of it was wrong" was no longer accurate.
-
-Round three:
-
-- **The sponsorship finding is withdrawn.** Its sample had been frozen against an older classifier:
-  four members no longer qualified as AI and fourteen qualifying events were missing. Deduplication
-  was also discarding a sponsored promo card while keeping a recording screenshot for the same
-  event, lowering the numerator. Rebuilt at event level with evidence unioned across all listings,
-  the gap is 10.6 points with a CI that crosses zero.
-- **Staffing range was stale** (10.9-13.4% against a regenerated 10.4-14.7%), and the voice-AI note
-  paired a 2026 percentage with an all-years count. 2026 rests on five events, not seventeen.
-
-Round two:
-
-- **Six duplicate events inflated every share.** A session and its promo card can both be indexed.
-  Deduplicating by title and date gives 1,303 events from 1,309 dated records. One pair sat in both
-  arms of the sponsorship sample; re-run deduplicated, the gap is 14.3 points (was 15.2).
-- **The voice-AI series was still being plotted** after the card said it was withdrawn. Rebuilt
-  instead: a title now needs an AI signal *and* a voice or phone signal. Reads 2.7% for 2026 on 17
-  sessions.
-- **"Lower bound" on the sponsorship gap was wrong** and is retracted. Bounds on two rates do not
-  bound their difference.
-- **Four date-parsing defects**, including a length guard that rejected valid short dates and a
-  malformed year that borrowed the image's upload year. No stored date changed.
-
-Round one:
-
-- **OCR ran in fast mode, not accurate.** Vision defines Accurate=0, Fast=1; the code passed 1 with a
-  comment claiming accurate. Fast mode misread sponsor labels ("Spon50r:"). Corrected figures moved
-  the sponsorship gap from 20.7 to 15.2 points and p from 0.0015 to 0.012.
-- **A causal claim was removed.** The page said a rise from 0.8% to 20.3% "does not come from a
-  21-point sponsorship gap." That compares a change in share against a between-group prevalence
-  difference. It cannot rule out sponsorship-driven topic selection.
-- **The voice-AI figure (3.8%) is withdrawn.** The classifier matched "How to start with Agentic AI"
-  and missed "AI on the Phone: The Voice (and Final) Frontier". No stable replacement exists.
-- **A title was misdated.** "The Human Oversight Imperative" ran 2025-11-20, cited as 2026.
-
-Unresolved and flagged rather than fixed: six record pairs share a title and date (likely a session
-and its promo card both indexed), and the phone category is a broad keyword bucket that catches
-call-center staffing content.
-
 ## Data
 
 | File | Contents |
