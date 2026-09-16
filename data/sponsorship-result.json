@@ -2,11 +2,23 @@
   "generated": "2026-09-16",
   "seed": 11,
   "classifier": "themes.py @ event level, current",
-  "evidence": "union across all listings of an event",
+  "evidence": "union across all listings of an event; OCR overridden by adjudication.json where a human read the image",
+  "unknown_excluded": {
+    "ai": [
+      240144
+    ],
+    "base": []
+  },
+  "dropped_for_year_match": {
+    "ai": [],
+    "base": [
+      241960
+    ]
+  },
   "ai": {
-    "n": 94,
-    "labeled": 81,
-    "rate": 86.2,
+    "n": 93,
+    "labeled": 82,
+    "rate": 88.2,
     "events": [
       221686,
       225624,
@@ -34,7 +46,6 @@
       236844,
       238255,
       238660,
-      240144,
       240835,
       240959,
       241304,
@@ -105,9 +116,9 @@
     ]
   },
   "baseline": {
-    "n": 94,
+    "n": 93,
     "labeled": 71,
-    "rate": 75.5,
+    "rate": 76.3,
     "events": [
       224205,
       228482,
@@ -138,7 +149,6 @@
       240720,
       241817,
       241824,
-      241960,
       242115,
       242238,
       242700,
@@ -205,11 +215,11 @@
       259965
     ]
   },
-  "gap_pp": 10.6,
-  "z": 1.85,
-  "p": 0.0638,
+  "gap_pp": 11.8,
+  "z": 2.11,
+  "p": 0.0347,
   "ci95_pp": [
-    -0.5,
-    21.8
+    1.0,
+    22.7
   ]
 }

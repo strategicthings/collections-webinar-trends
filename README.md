@@ -13,21 +13,22 @@ webinar sessions. One part cleanly held.
 | Payment portals were a hype wave | Fails | 0% in 2021, then 1.1% to 2.2% a year. 22 of 1,303. |
 | Then texting, email and omnichannel | Holds | 3.0% (2022) to a 9.4% peak (2024), down to 5.5% (2026). |
 | Then "nobody answers the phone" | **Not established** | My phone category is a keyword bucket that counts call-center staffing and misses the avoidance framing. It shows no trend but cannot test the claim. |
-| Now AI voice bots dominate | Partly | AI reaches 19.8%. Voice AI specifically reaches 2.7%, on 17 sessions. |
+| Now AI voice bots dominate | Partly | AI reaches 19.8% (36 of 182). Voice AI specifically reaches 2.7%, which is 5 events of 182; 17 across the whole archive. |
 
 AI went from 0.8% of 2022 sessions to 19.8% of 2026 sessions. Read chronologically the AI sessions
 move through four stages: explainer (2023), policy (2024), enablement (2025), workforce management
 (2026).
 
-**The obvious objection, tested and not supported.** These are sponsored webinars, so the obvious
-challenge is that a rising AI share measures vendor spend. I tested it: AI events show a readable
-sponsor label 86.2% of the time (81 of 94) against 75.5% (71 of 94) for a year-matched baseline.
-Gap 10.6 points, **95% CI -0.5 to 21.8, p = 0.064**. The interval crosses zero, so this is not
-distinguishable from chance and I am not claiming the effect.
+**The obvious objection, tested four times and still unsettled.** These are sponsored webinars, so
+the obvious challenge is that a rising AI share measures vendor spend. AI events show a sponsor label
+88.2% of the time (82 of 93) against 76.3% (71 of 93) for a year-matched baseline. Gap 11.8 points,
+95% CI 1.0 to 22.7, p = 0.035. Every event reading unsponsored was checked by eye, because OCR proved
+unreliable on these cards.
 
-The gap shrank on every run as measurement defects came out: 20.7, then 15.2, then 14.3, then 10.6.
-What survives is unremarkable. Roughly three quarters of the whole calendar carries a sponsor label.
-Sponsored programming is the normal condition here, not something particular to AI.
+**Do not treat that as settled.** Across five runs the gap read 20.7, 15.2, 14.3, 10.6 and 11.8, and
+it moved each time a methodological choice changed rather than each time new data arrived. It also
+says nothing about causation. What is solid is duller: between three quarters and nine tenths of this
+calendar carries a sponsor, whatever the topic.
 
 ## Corrections, 2026-09-16
 
