@@ -19,20 +19,31 @@ AI went from 0.8% of 2022 sessions to 19.8% of 2026 sessions. Read chronological
 move through four stages: explainer (2023), policy (2024), enablement (2025), workforce management
 (2026).
 
-**The caveat that matters.** These are sponsored webinars. AI sessions show a readable sponsor label
-85.7% of the time (78 of 91) against 71.4% (65 of 91) for a year-matched non-AI baseline. Gap 14.3
-points, 95% CI 2.5 to 26.0, p = 0.019.
+**The obvious objection, tested and not supported.** These are sponsored webinars, so the obvious
+challenge is that a rising AI share measures vendor spend. I tested it: AI events show a readable
+sponsor label 86.2% of the time (81 of 94) against 75.5% (71 of 94) for a year-matched baseline.
+Gap 10.6 points, **95% CI -0.5 to 21.8, p = 0.064**. The interval crosses zero, so this is not
+distinguishable from chance and I am not claiming the effect.
 
-Read that as a difference in *OCR-detected sponsor labels*, not in sponsorship. Both rates are
-undercounts, at least one miss is known and unfixed, and undercounting both rates does not bound
-their difference in either direction. An association also says nothing about which way causation
-runs.
+The gap shrank on every run as measurement defects came out: 20.7, then 15.2, then 14.3, then 10.6.
+What survives is unremarkable. Roughly three quarters of the whole calendar carries a sponsor label.
+Sponsored programming is the normal condition here, not something particular to AI.
 
 ## Corrections, 2026-09-16
 
 Two rounds of independent code review found thirteen errors between them. All are fixed and listed
 in full in section 08 of the page. Round two changed the headline: the phone verdict moved from
 "fails" to "not established," so "half of it was wrong" was no longer accurate.
+
+Round three:
+
+- **The sponsorship finding is withdrawn.** Its sample had been frozen against an older classifier:
+  four members no longer qualified as AI and fourteen qualifying events were missing. Deduplication
+  was also discarding a sponsored promo card while keeping a recording screenshot for the same
+  event, lowering the numerator. Rebuilt at event level with evidence unioned across all listings,
+  the gap is 10.6 points with a CI that crosses zero.
+- **Staffing range was stale** (10.9-13.4% against a regenerated 10.4-14.7%), and the voice-AI note
+  paired a 2026 percentage with an all-years count. 2026 rests on five events, not seventeen.
 
 Round two:
 
